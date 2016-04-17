@@ -6,8 +6,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Hyper Interaktiv AS" => "ios@hyper.no" }
   s.source           = {
-    :git => "https://github.com/hyperoslo/Brick.git",
-    :tag => s.version.to_s
+    :git => "https://github.com/hyperoslo/Brick.git"
   }
   s.social_media_url = 'https://twitter.com/hyperoslo'
 
@@ -21,6 +20,6 @@ Pod::Spec.new do |s|
   # s.ios.frameworks = 'UIKit', 'Foundation'
   # s.osx.frameworks = 'Cocoa', 'Foundation'
 
-  s.dependency 'Sugar', '~> 1.0'
-  s.dependency 'Tailor'
+  #s.dependency 'Sugar', '~> 1.0'
+  #s.dependency 'Tailor'
 end
